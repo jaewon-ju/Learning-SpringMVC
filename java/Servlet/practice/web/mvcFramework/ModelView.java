@@ -1,4 +1,4 @@
-package Servlet.practice.web.mvcFramework.version3;
+package Servlet.practice.web.mvcFramework;
 
 import lombok.Getter;
 import lombok.Setter;

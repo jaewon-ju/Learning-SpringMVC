@@ -1,5 +1,6 @@
 package Servlet.practice.web.mvcFramework.version2;
 
+import Servlet.practice.web.mvcFramework.MyView;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -17,9 +18,9 @@ public class FrontControllerServletV2 extends HttpServlet {
     // ControllerV2의 구현객체들을 저장하는 Map
 
     public FrontControllerServletV2() {
-        controllerMap.put("/front-controller/V2/orders/new-form", new OrderFormControllerV2());
-        controllerMap.put("/front-controller/V2/orders/save", new OrderSaveControllerV2());
-        controllerMap.put("/front-controller/V2/orders", new OrderListControllerV2());
+        controllerMap.put("/front-controller/v2/orders/new-form", new OrderFormControllerV2());
+        controllerMap.put("/front-controller/v2/orders/save", new OrderSaveControllerV2());
+        controllerMap.put("/front-controller/v2/orders", new OrderListControllerV2());
 
         // 프론트 컨트롤러가 생성될 때 Map에 구현객체들을 저장
     }
